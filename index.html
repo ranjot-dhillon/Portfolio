@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3c5c6bfc1b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="logo.png" class="logo"> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+
+                <h1>Hi, I'm <span>Ranjodh Pal Singh</span> <br> I am a Passionate</h1>
+                <span id="element"></span>
+            </div>
+        </div>
+    </div>
+<!-- About Section -->
+
+    <section class="about-section">
+    <div class="about-container">
+      <div class="about-img">
+        <img src="ranjot.jpg" alt="Profile Image" />
+      </div>
+      <div class="about-content">
+        <h1>About <span>Me</span></h1>
+        <p>
+          As a 3rd year Computer Science Engineering student, I’ve been adventuring through C, C++, and JavaScript —
+          and thankfully survived! With each project, my passion for software engineering grows. I'm driven to explore 
+          every strange bug and glorious breakthrough this field offers.
+        </p>
+
+        <div class="info-tabs">
+          <div class="tab">
+            <h3>Skills</h3>
+            <ul>
+              <li><strong>UI/UX:</strong> Designing Web Interfaces</li>
+              <li><strong>Web Development:</strong> Web App Development</li>
+              <li><strong>Problem Solving:</strong> 250+ questions solved on LeetCode & GFG</li>
+            </ul>
+          </div>
+          <div class="tab">
+            <h3>Experience</h3>
+            <ul>
+              <li>Intern at UptoSkills — Frontend & System Simulations</li>
+              <li>WhatsApp Chat Analyzer — Python & NLP</li>
+              <li>HRMS with MERN Stack — Admin Dashboard</li>
+            </ul>
+          </div>
+          <div class="tab">
+            <h3>Education</h3>
+            <ul>
+              <li>B.Tech CSE, Graphic Era Hill University</li>
+              <li>Completed 10+ real-world software projects</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-----Services--->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>Web Design</h2>
+                    <p>Out of many projects this one has some cool code work.</p>
+                    <br>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-r-project"></i>
+                    <h2>Mini Projects</h2>
+                    <p>This project is made my Ranjodh Pal Singh with guidance of Mr.Shadab Khan.</p>
+                    <br>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-dev"></i>
+                    <h2>LeetCode</h2>
+                    <p>I have solved 100+ problems of LeetCode and Gfg combined using c++ only.</p>
+                    <br>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----POrtfolio-->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.jpeg">
+                    <div class="layer">
+                        <h3>Social Media Links</h3>
+                        <p>This Linktree provides my social media accounts to the user.</p>
+                        <br>
+                        <a
+                            href="https://linktr.ee/ranjotdhillon"><i
+                                class="fa-solid fa-link fa-flip"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Projects</h3>
+                        <p>Mini Projects such as web portfolio,text summariser,Student Manangement Sysytem</p>
+                        <br>
+                        <a href="https://github.com/ranjot-dhillon"><i class="fa-solid fa-link fa-flip"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.jpg">
+                    <div class="layer">
+                        <h3>Solutions for Leetcode</h3>
+                        <p>Optimised Solutions for Leetcode Problems with effecient solution</p>
+                        <br>
+                        <a href="https://leetcode.com/u/ranjot_dhillon/"><i class="fa-solid fa-link fa-flip"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-----------Contact------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i></i> dhillonranjot007@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +9178147**** </p>
+                    <br>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/_rahul__790/?igshid=OGQ5ZDc2ODk2ZA%3D%3D/"><i
+                                class="fa-brands fa-instagram" style="color: #ff00ea;"></i></a>
+                        <a href="https://leetcode.com/rahulmathpal//"><i class="fa-solid fa-code"
+                                style="color: #e9fa00;"></i> </a>
+                        <a href="https://www.linkedin.com/in/rahul-m-393500251/"><i class="fa-brands fa-linkedin-in"
+                                style="color: #005eff;"></i></a>
+                        <a href="https://github.com//rahulm790"><i class="fa-brands fa-github"
+                                style="color: #1100ff;"></i></i></a>
+                    </div>
+                    <a href="images/RanjodhPal_Resume" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter Name" required>
+                        <input type="text" name="Email" placeholder="Enter E-mail Address" required>
+                        <textarea name="Message" rows="6" placeholder="Provide a Feedback"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright &#169; RanjodhPal Singh</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname, event) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            document.getElementById(tabname).classList.add("active-tab");
+            event.currentTarget.classList.add("active-link");
+        }
+    </script>
+
+    <script>
+
+        var typed = new Typed('#element', {
+            strings: ['Frontend Developer', 'Competetive Programmer', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+    <!-- JavaScript for Side Menu -->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <!----Script for Form-->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwwb2qRVPF7yEb5o-jkX23EG0zdizHEdsW-ISkSOyDwn3MYJyH7zb5APV1tr9o_MW3Crg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent succesfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        });
+    </script>
+</body>
+
+</html>
